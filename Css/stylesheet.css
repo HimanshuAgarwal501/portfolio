@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(2, 7, 63, 0.961);
+  font-family: "Poppins", sans-serif;
+  color: white;
+  overflow-x: hidden;
+}
+
+header {
+  position: sticky;
+  z-index: 2;
+}
+
+nav {
+  width: 102vw;
+  position: sticky;
+  z-index: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 48px;
+  background-color: rgba(2, 7, 63, 0.961);
+}
+
+nav li {
+  list-style: none;
+  margin: 35px;
+}
+
+nav ul {
+  display: flex;
+}
+
+.Navleft {
+  font-size: 1.5rem;
+}
+
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.firstSection div img {
+  height: 29rem;
+  width: 95%;
+  margin: 47px 0 0 9px;
+}
+
+.leftSection {
+  width: 35%;
+  height: 100%;
+  font-size: 50px;
+  margin-top: 82px;
+}
+
+.text {
+  height: 18rem;
+}
+
+.section-button {
+  display: inline-block;
+  width: 100vw;
+}
+
+.btn {
+  margin-right: 1rem;
+  padding: 5px;
+  width: 10rem;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.firstSectionName {
+  color: aqua;
+}
+
+nav .Right ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav .Right ul li a:hover {
+  font-size: 1.019rem;
+  color: rgba(224, 211, 211, 0.532);
+}
+
+.secondSection {
+  max-width: 85vw;
+  margin: auto;
+  height: 70vh;
+}
+
+.text-gray {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+main hr {
+  border: 0;
+  background-color: rgba(34, 40, 82, 0.961);
+  height: 0.1rem;
+  margin: 18px 50px;
+}
+
+.secondSection h1 {
+  font-size: 2.2rem;
+  margin: -0.5rem 0 1rem 0;
+}
+
+.box {
+  background-color: white;
+  border: 0;
+  width: 70vw;
+  height: 1px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 8vh;
+}
+
+.vertical {
+  background-color: white;
+  border: 0;
+  width: 1.5px;
+  height: 11vh;
+}
+
+.work {
+  margin: -24px 0 0 0;
+  width: 9vw;
+}
+
+.work img {
+  width: 20px;
+  height: 20px;
+  margin: -3px 0 -7px -8px;
+}
+
+.vertical-discription {
+  color: gray;
+}
+
+footer {
+  margin-top: 15px;
+  background-color: rgba(2, 7, 63, 0.961);
+}
+
+.first-F {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-row ul li {
+  list-style: none;
+}
+
+.footer-row ul li a {
+  text-decoration: none;
+  color: rgba(90, 94, 135, 0.961);
+}
+
+.footer-row {
+  margin: auto;
+}
+
+footer hr {
+  border: 0;
+  background-color: rgba(34, 40, 82, 0.961);
+  height: 0.1rem;
+  margin: 18px 15vw;
+}
+
+.second-f {
+  color: gray;
+}
+
+.foot-name {
+  font-size: 25px;
+}
+
+.Scrollbtn {
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
+}
+
+.Scrollbtn button {
+  border-radius: 200%;
+  height: 3.1rem;
+  z-index: 2;
+  cursor: pointer;
+}
+.Scrollbtn button:hover {
+  background-color: transparent;
+}
+@media screen and (max-width: 660px) and (min-width: 490px) {
+  header {
+    height: 75px;
+  }
+}
+@media screen and (max-width: 965px) and (min-width: 340px) {
+  nav {
+    display: block;
+    height: 120px;
+    text-align: center;
+  }
+  .Navleft {
+    font-size: 2rem;
+  }
+  .Right {
+    display: block ruby;
+  }
+}
+@media screen and (max-width: 654px) {
+  .Right ul li{
+    margin: 35px 1rem;
+  }
+}
+@media screen and (max-width: 476px) {
+    .Right ul {
+      font-size: 0.9rem;
+    }
+  }
+  @media screen and (max-width: 443px) {
+    .Navleft {
+        font-size: 1.5rem;
+      }
+      .Right ul li{
+        margin: 9px 0.48rem;
+      }
+      nav {
+        height: 77px;
+        text-align: center;
+      }
+  }
+  @media screen and (max-width: 1270px) {
+    .text{
+        height: 22rem;
+    }
+  }
+  @media screen and (max-width: 1120px) {
+    .btn{width: 8rem;}
+  }
+        
+    
+    @media screen and (max-width: 1270px) {
+        .text{
+            height: 27rem;
+        }
+        .firstSection div img {
+            height: 29rem;
+            width: 84%;
+        }
+        .rightSection img{
+            margin-top: 9rem;
+        }
+      }
+      @media screen and (max-width: 830px) {
+        .rightSection{
+            display: none;
+        }
+        .leftSection{
+            width: 70%;
+            margin-top: 20px;
+            height: 22rem;
+        }
+        .text{
+            height: 17rem;
+        }
+
+      }
+      @media screen and (max-width: 635px) {
+        .leftSection{
+            
+            height: 26rem;
+        }
+        .text{
+            height: 22rem;
+        }
+        .section-button{
+            margin-left: -30px;
+        }
+      }
+    
+    
