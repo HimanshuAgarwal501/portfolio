@@ -202,14 +202,16 @@ footer hr {
 }
 
 .Scrollbtn button {
-  border-radius: 200%;
+  border-radius: 50%;
   height: 3.1rem;
   z-index: 2;
   cursor: pointer;
+  border: none;
 }
 .Scrollbtn button:hover {
   background-color: transparent;
   color: white;
+  border: 1px solid white;
 }
 @media screen and (max-width: 660px) and (min-width: 490px) {
   header {
