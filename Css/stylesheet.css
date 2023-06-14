@@ -103,7 +103,7 @@ nav .Right ul li a:hover {
 .secondSection {
   max-width: 85vw;
   margin: auto;
-  height: 70vh;
+  height: 95vh;
 }
 
 .text-gray {
@@ -141,7 +141,7 @@ main hr {
 }
 
 .work {
-  margin: -24px 0 0 0;
+  margin: -24px 5vw 0 0;
   width: 9vw;
 }
 
@@ -207,6 +207,7 @@ footer hr {
 }
 .Scrollbtn button:hover {
   background-color: transparent;
+  color: white;
 }
 @media screen and (max-width: 660px) and (min-width: 490px) {
   header {
@@ -227,74 +228,145 @@ footer hr {
   }
 }
 @media screen and (max-width: 654px) {
-  .Right ul li{
+  .Right ul li {
     margin: 35px 1rem;
   }
 }
 @media screen and (max-width: 476px) {
-    .Right ul {
-      font-size: 0.9rem;
-    }
+  .Right ul {
+    font-size: 0.9rem;
   }
-  @media screen and (max-width: 443px) {
-    .Navleft {
-        font-size: 1.5rem;
-      }
-      .Right ul li{
-        margin: 9px 0.48rem;
-      }
-      nav {
-        height: 77px;
-        text-align: center;
-      }
+}
+@media screen and (max-width: 443px) {
+  .Navleft {
+    font-size: 1.5rem;
   }
-  @media screen and (max-width: 1270px) {
-    .text{
-        height: 22rem;
-    }
+  .Right ul li {
+    margin: 9px 0.48rem;
   }
-  @media screen and (max-width: 1120px) {
-    .btn{width: 8rem;}
+  nav {
+    height: 77px;
+    text-align: center;
   }
-        
-    
-    @media screen and (max-width: 1270px) {
-        .text{
-            height: 27rem;
-        }
-        .firstSection div img {
-            height: 29rem;
-            width: 84%;
-        }
-        .rightSection img{
-            margin-top: 9rem;
-        }
-      }
-      @media screen and (max-width: 830px) {
-        .rightSection{
-            display: none;
-        }
-        .leftSection{
-            width: 70%;
-            margin-top: 20px;
-            height: 22rem;
-        }
-        .text{
-            height: 17rem;
-        }
+}
+@media screen and (max-width: 1270px) {
+  .text {
+    height: 22rem;
+  }
+}
+@media screen and (max-width: 1120px) {
+  .btn {
+    width: 8rem;
+  }
+}
 
-      }
-      @media screen and (max-width: 635px) {
-        .leftSection{
-            
-            height: 26rem;
-        }
-        .text{
-            height: 22rem;
-        }
-        .section-button{
-            margin-left: -30px;
-        }
-      }
+@media screen and (max-width: 1270px) {
+  .text {
+    height: 27rem;
+  }
+  .firstSection div img {
+    height: 29rem;
+    width: 84%;
+  }
+  .rightSection img {
+    margin-top: 9rem;
+  }
+}
+@media screen and (max-width: 830px) {
+  .rightSection {
+    display: none;
+  }
+  .leftSection {
+    width: 70%;
+    margin-top: 20px;
+    height: 21rem;
+  }
+  .text {
+    height: 17rem;
+  }
+
+  .box {
+    height: 90vh;
+    width: 3px;
+    margin-top: 45px;
+    margin-left: 3vw;
+    display: block;
+  }
+  .vertical {
+    width: 7vw;
+    height: 3px;
+display: block;
     
-    
+  }
+  .work img {
+    margin: 32px 0px -16px -20px;
+  }
+  .vertical-topic{
+    margin: -31px 0 0 65px;
+  }
+  .vertical-discription p{
+    width: 59vw;
+  }
+  .vertical-discription{
+    margin: -61px 0px 42px 185px;
+
+  }
+  .secondSection {
+    height: 135vh;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .leftSection {
+    height: 26rem;
+  }
+  .text {
+    height: 22rem;
+  }
+  .section-button {
+    margin-left: -30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .text {
+    height: 26rem;
+  }
+  .leftSection {
+    height: 31rem;
+  }
+  .btn {
+    width: 23vw;
+  }
+}
+@media screen and (max-width: 411px) {
+  .text {
+    height: 31rem;
+  }
+  .leftSection {
+    height: 36rem;
+  }
+}
+@media screen and  (max-width: 574px){
+  .vertical-discription p{
+    width: 51vw;
+  }
+  .box{
+    height: 100vh;
+  }
+}
+@media screen and  (max-width: 471px){
+  .vertical-discription {
+    margin: 12px 0px 44px 70px;
+  }
+  .secondSection {
+    height: 214vh;
+  }
+  .box{
+    height: 160vh;
+  }
+}
+@media screen and (max-width: 430px) {
+  .box{
+    height: 170vh;
+  }
+}
