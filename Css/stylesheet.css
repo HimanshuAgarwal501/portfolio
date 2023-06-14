@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
 }
-
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: rgba(2, 7, 63, 0.961);
   font-family: "Poppins", sans-serif;
